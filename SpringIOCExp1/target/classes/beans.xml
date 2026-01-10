@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<bean id="ord1" class="com.test.Order1">
+
+		<property name="id" value="101"></property>
+		<property name="name" value="apple"></property>
+		<property name="price" value="200"></property>
+	</bean>
+
+	<bean id="ord2" class="com.test.Order1">
+
+		<constructor-arg name="id" value="201"></constructor-arg>
+		<constructor-arg name="name" value="orange"></constructor-arg>
+		<constructor-arg name="price" value="159"></constructor-arg>
+
+	</bean>
+
+	<bean id="adr1" class="com.test.Address">
+		<property name="city" value="Bangalore"></property>
+		<property name="state" value="KA"></property>
+
+	</bean>
+
+	<bean id="adr2" class="com.test.Address">
+		<property name="city" value="tirupati"></property>
+		<property name="state" value="AP"></property>
+	</bean>
+
+	<bean id="cst" class="com.test.Customer">
+		<property name="id" value="101"></property>
+		<property name="name" value="Rohit"></property>
+		<property name="orders">
+			<list>
+				<ref bean="ord1" />
+				<ref bean="ord2" />
+
+			</list>
+
+		</property>
+
+		<property name="adrs">
+			<list>
+				<ref bean="adr1" />
+				<ref bean="adr2" />
+			</list>
+
+		</property>
+
+	</bean>
+
+	<bean id="ord3" class="com.test.Order1">
+		<constructor-arg name="id" value="3"></constructor-arg>
+		<constructor-arg name="name" value="fruits"></constructor-arg>
+		<constructor-arg name="price" value="584"></constructor-arg>
+
+	</bean>
+
+	<bean id="adr3" class="com.test.Address">
+		<constructor-arg name="city" value="mumbai"></constructor-arg>
+		<constructor-arg name="state" value="mh"></constructor-arg>
+
+
+	</bean>
+	
+	<bean id="cst1" class="com.test.Customer">
+	  <constructor-arg name="id" value="11"></constructor-arg>
+	  <constructor-arg name="name" value="kohli"></constructor-arg>
+	  
+	   <constructor-arg name="adrs">
+	    <list>
+	      <ref bean="adr3"/>
+	    </list>
+	  </constructor-arg>
+	  
+	  <constructor-arg name="order">
+	    <list>
+	       <ref bean="ord3"/>
+	    </list>
+	    
+	  </constructor-arg>
+	  
+	 
+	  
+	</bean>
+
+
+
+        <!-- triangle -->
+  
+    <bean autowire="byName"
+          class="com.test1.Triangle"
+          destroy-method="cleanUp" id="triangle" init-method="myInit">
+    </bean>
+    
+    <bean
+        class="com.test1.Point"
+        id="pointA">
+        <property name="x" value="0"></property>
+        <property name="y" value="0"></property>
+    </bean>
+    
+    <bean
+        class="com.test1.Point"
+        id="pointB">
+        <property name="x" value="-20"></property>
+        <property name="y" value="0"></property>
+    </bean>
+    
+    <bean
+        class="com.test1.Point"
+        id="pointC">
+        <property name="x" value="20"></property>
+        <property name="y" value="0"></property>
+    </bean>
+
+
+
+
+</beans>
+
