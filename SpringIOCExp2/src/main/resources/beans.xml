@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd">
+
+	<bean id="cmp1" class="com.test.Company">
+		<property name="cmpName" value="ABC"></property>
+		<property name="salary" value="50000"></property>
+	</bean>
+	
+	<bean id="cmp2" class="com.test.Company">
+		<property name="cmpName" value="XYZ"></property>
+		<property name="salary" value="60000"></property>
+	</bean>
+
+	<bean id="dept1" class="com.test.Department">
+	   <property name="deptId" value="1"></property>
+	   <property name="deptname" value="Devops"></property>
+	
+	</bean>
+	<bean id="dept2" class="com.test.Department">
+	   <property name="deptId" value="2"></property>
+	   <property name="deptname" value="Developer"></property>
+	
+	</bean>
+	
+	<bean id="emp1" class="com.test.Employee">
+	    <property name="id" value="11"></property>
+	    <property name="name" value="Rahul"></property>
+	    <property name="dept">
+	      <list>
+	         <ref bean="dept1"/>
+	         <ref bean="dept2"/>
+	      </list>
+	    
+	    </property>
+	    
+	    <property name="cmp">
+	       <list>
+	          <ref bean="cmp1"/>
+	          <ref bean="cmp2"/>
+	       </list>
+	    
+	    </property>
+	</bean>
+	
+	
+	
+	<!-- constructor injection -->
+	
+	
+		<bean id="cmp3" class="com.test.Company">
+		<constructor-arg name="cmpName" value="ABC"></constructor-arg>
+		<constructor-arg name="salary" value="50000"></constructor-arg>
+	</bean>
+	
+	<bean id="cmp4" class="com.test.Company">
+		<constructor-arg name="cmpName" value="XYZ"></constructor-arg>
+		<constructor-arg name="salary" value="60000"></constructor-arg>
+	</bean>
+
+	<bean id="dept3" class="com.test.Department">
+	   <constructor-arg name="deptId" value="1"></constructor-arg>
+	   <constructor-arg name="deptname" value="Devops"></constructor-arg>
+	
+	</bean>
+	<bean id="dept4" class="com.test.Department">
+	   <constructor-arg name="deptId" value="2"></constructor-arg>
+	   <constructor-arg name="deptname" value="Developer"></constructor-arg>
+	
+	</bean>
+	
+	<bean id="emp2" class="com.test.Employee">
+	    <constructor-arg name="id" value="11"></constructor-arg>
+	    <constructor-arg name="name" value="Rahul"></constructor-arg>
+	    <constructor-arg name="dept">
+	      <list>
+	         <ref bean="dept1"/>
+	         <ref bean="dept2"/>
+	      </list>
+	    
+	    </constructor-arg>
+	    
+	    <constructor-arg name="cmp">
+	       <list>
+	          <ref bean="cmp1"/>
+	          <ref bean="cmp2"/>
+	       </list>
+	    
+	    </constructor-arg>
+	</bean>
+	
+
+      
+	
+	
+
+	
+
+
+<!-- 	<bean id="ord3" class="com.test.Order1"> -->
+<!-- 		<constructor-arg name="id" value="3"></constructor-arg> -->
+<!-- 		<constructor-arg name="name" value="fruits"></constructor-arg> -->
+<!-- 		<constructor-arg name="price" value="584"></constructor-arg> -->
+
+<!-- 	</bean> -->
+
+<!-- 	<bean id="adr3" class="com.test.Address"> -->
+<!-- 		<constructor-arg name="city" value="mumbai"></constructor-arg> -->
+<!-- 		<constructor-arg name="state" value="mh"></constructor-arg> -->
+
+
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="cst1" class="com.test.Customer"> -->
+<!-- 	  <constructor-arg name="id" value="11"></constructor-arg> -->
+<!-- 	  <constructor-arg name="name" value="kohli"></constructor-arg> -->
+	  
+<!-- 	   <constructor-arg name="adrs"> -->
+<!-- 	    <list> -->
+<!-- 	      <ref bean="adr3"/> -->
+<!-- 	    </list> -->
+<!-- 	  </constructor-arg> -->
+	  
+<!-- 	  <constructor-arg name="order"> -->
+<!-- 	    <list> -->
+<!-- 	       <ref bean="ord3"/> -->
+<!-- 	    </list> -->
+	    
+<!-- 	  </constructor-arg> -->
+	  
+	 
+	  
+<!-- 	</bean> -->
+
+
+
+</beans>
+
