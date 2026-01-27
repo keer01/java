@@ -1,0 +1,47 @@
+<%@page import="javax.security.auth.Subject"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<%@page import="java.util.Set"%>
+<%@page import="java.security.Principal"%>
+<%@page import="javax.security.auth.Subject"%>
+
+
+
+
+<%
+Subject subject = (Subject) session.getAttribute("subject");
+
+Set<Principal> principals = subject.getPrincipals();
+
+String username = (String) session.getAttribute("username");
+%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>
+		Welcome....<%=username%>>
+	</h2>
+	<p>your roles:</p>
+	<ul>
+		<%
+		for (Principal p : principals) {
+			if (!p.getName().equals(username)) {
+				out.println("<li>" + p.getName() + "</li>");
+			}
+		}
+		%>
+
+
+	</ul>
+
+
+
+
+</body>
+</html>
