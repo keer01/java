@@ -1,0 +1,19 @@
+#spring.application.name=StudentMicroserviceClient
+
+#spring.application.name=SpringBootStudentMicroservice1
+
+spring:
+  application:
+    name: StudentMicroserviceClient
+  web:
+    error:
+      whitelabel:
+        enabled: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+              
+server:
+  port: 3333    		
