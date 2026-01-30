@@ -1,0 +1,277 @@
+2026-01-29T12:12:34.609+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Starting SpringBootRestApiJpaApplication using Java 21.0.1 with PID 10296 (C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA\target\classes started by keerthanaa.r1 in C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA)
+2026-01-29T12:12:34.643+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T12:12:34.759+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-29T12:12:34.759+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-29T12:12:37.703+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29T12:12:37.791+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interface.
+2026-01-29T12:12:39.078+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.j.s.JettyServletWebServerFactory   : Server initialized with port: 7777
+2026-01-29T12:12:39.084+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.1+12-LTS
+2026-01-29T12:12:39.167+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4407 ms
+2026-01-29T12:12:39.368+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.session.DefaultSessionIdManager    : Session workerName=node0
+2026-01-29T12:12:39.380+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.handler.ContextHandler  : Started osbjs.JettyEmbeddedWebAppContext@ad658f9{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.11913306896652312281/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@51b02f68{STARTED}}
+2026-01-29T12:12:39.382+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.e.servlet.ServletContextHandler    : Started osbjs.JettyEmbeddedWebAppContext@ad658f9{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.11913306896652312281/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@51b02f68{STARTED}}
+2026-01-29T12:12:39.382+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : Started oejs.Server@75dbf03d{STARTING}[12.1.5,sto=0] @298ms
+2026-01-29T12:12:39.590+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-29T12:12:39.851+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-29T12:12:40.589+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-29T12:12:40.652+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-29T12:12:41.580+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d570520
+2026-01-29T12:12:41.582+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-29T12:12:41.820+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-29T12:12:41.843+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mladec3]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mladec3/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-29T12:12:43.052+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-29T12:12:43.257+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T12:12:43.398+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-29T12:12:43.916+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-29T12:12:44.743+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-01-29T12:12:44.857+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29T12:12:44.857+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-29T12:12:44.860+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-01-29T12:12:45.049+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@76b27b0f{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T12:12:45.065+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.boot.jetty.JettyWebServer            : Jetty started on port 7777 (http/1.1) with context path '/'
+2026-01-29T12:12:45.072+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Started SpringBootRestApiJpaApplication in 11.181 seconds (process running for 13.363)
+2026-01-29T12:12:45.111+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-01-29T12:12:45.111+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-01-29T12:13:06.673+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-49] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student for request '/student'.]
+2026-01-29T12:13:08.014+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-44] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student for request '/student'.]
+2026-01-29T12:13:09.569+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-49] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-01-29T12:13:22.259+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-48] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student/v1/api for request '/student/v1/api'.]
+2026-01-29T12:13:22.306+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-46] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-01-29T12:13:25.548+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-48] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student/v1/api for request '/student/v1/api'.]
+2026-01-29T12:13:25.588+05:30  WARN 10296 --- [SpringBootRestAPI_JPA] [qtp545592102-46] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-01-29T12:57:51.812+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-29T12:57:51.817+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] o.s.boot.jetty.GracefulShutdown          : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-29T12:57:51.819+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [jetty-shutdown] o.s.boot.jetty.GracefulShutdown          : Graceful shutdown complete
+2026-01-29T12:57:51.823+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@76b27b0f{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T12:57:51.829+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T12:57:51.833+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-29T12:57:51.837+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-29T12:57:51.838+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] org.eclipse.jetty.server.Server          : Stopped oejs.Server@75dbf03d{STOPPING}[12.1.5,sto=0]
+2026-01-29T12:57:51.843+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-29T12:57:51.846+05:30  INFO 10296 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(55)-127.0.0.1] o.e.j.e.servlet.ServletContextHandler    : Stopped osbjs.JettyEmbeddedWebAppContext@ad658f9{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.11913306896652312281/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@51b02f68{STOPPED}}
+2026-01-29T12:58:10.170+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Starting SpringBootRestApiJpaApplication using Java 21.0.1 with PID 9516 (C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA\target\classes started by keerthanaa.r1 in C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA)
+2026-01-29T12:58:10.174+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T12:58:10.222+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-29T12:58:10.222+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-29T12:58:11.222+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29T12:58:11.273+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2026-01-29T12:58:11.918+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.j.s.JettyServletWebServerFactory   : Server initialized with port: 7777
+2026-01-29T12:58:11.923+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.1+12-LTS
+2026-01-29T12:58:11.956+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1733 ms
+2026-01-29T12:58:12.085+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.session.DefaultSessionIdManager    : Session workerName=node0
+2026-01-29T12:58:12.096+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.handler.ContextHandler  : Started osbjs.JettyEmbeddedWebAppContext@737df0d1{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.360045398815685797/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@5ce7af85{STARTED}}
+2026-01-29T12:58:12.097+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.e.servlet.ServletContextHandler    : Started osbjs.JettyEmbeddedWebAppContext@737df0d1{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.360045398815685797/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@5ce7af85{STARTED}}
+2026-01-29T12:58:12.097+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : Started oejs.Server@1f909cab{STARTING}[12.1.5,sto=0] @174ms
+2026-01-29T12:58:12.194+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-29T12:58:12.247+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-29T12:58:12.698+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-29T12:58:12.731+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-29T12:58:13.032+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@660249a9
+2026-01-29T12:58:13.034+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-29T12:58:13.087+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-29T12:58:13.104+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mladec3]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mladec3/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-29T12:58:13.854+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-29T12:58:13.909+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T12:58:13.987+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-29T12:58:14.238+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-29T12:58:14.770+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-01-29T12:58:14.834+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29T12:58:14.834+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-29T12:58:14.836+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-29T12:58:14.865+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@2e62de20{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T12:58:14.867+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.boot.jetty.JettyWebServer            : Jetty started on port 7777 (http/1.1) with context path '/'
+2026-01-29T12:58:14.880+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Started SpringBootRestApiJpaApplication in 5.086 seconds (process running for 6.043)
+2026-01-29T12:58:14.893+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-01-29T12:58:14.893+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-01-29T13:50:43.604+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [qtp1635507663-47] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student/v1/api for request '/student/v1/api'.]
+2026-01-29T13:50:43.639+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [qtp1635507663-41] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-01-29T13:50:55.168+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [qtp1635507663-45] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource student for request '/student'.]
+2026-01-29T13:50:55.204+05:30  WARN 9516 --- [SpringBootRestAPI_JPA] [qtp1635507663-44] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico for request '/favicon.ico'.]
+2026-01-29T13:53:38.662+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-29T13:53:38.665+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] o.s.boot.jetty.GracefulShutdown          : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-29T13:53:38.666+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [jetty-shutdown] o.s.boot.jetty.GracefulShutdown          : Graceful shutdown complete
+2026-01-29T13:53:38.671+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@2e62de20{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T13:53:38.675+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T13:53:38.679+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-29T13:53:38.683+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-29T13:53:38.684+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] org.eclipse.jetty.server.Server          : Stopped oejs.Server@1f909cab{STOPPING}[12.1.5,sto=0]
+2026-01-29T13:53:38.688+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-29T13:53:38.692+05:30  INFO 9516 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(66)-127.0.0.1] o.e.j.e.servlet.ServletContextHandler    : Stopped osbjs.JettyEmbeddedWebAppContext@737df0d1{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.360045398815685797/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@5ce7af85{STOPPED}}
+2026-01-29T13:54:22.303+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Starting SpringBootRestApiJpaApplication using Java 21.0.1 with PID 17036 (C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA\target\classes started by keerthanaa.r1 in C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA)
+2026-01-29T13:54:22.307+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T13:54:22.347+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-29T13:54:22.347+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-29T13:54:23.305+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29T13:54:23.355+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2026-01-29T13:54:24.011+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.j.s.JettyServletWebServerFactory   : Server initialized with port: 7777
+2026-01-29T13:54:24.015+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.1+12-LTS
+2026-01-29T13:54:24.049+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1701 ms
+2026-01-29T13:54:24.174+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.session.DefaultSessionIdManager    : Session workerName=node0
+2026-01-29T13:54:24.184+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.handler.ContextHandler  : Started osbjs.JettyEmbeddedWebAppContext@2ff11b6f{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.14659084787652144341/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@1eb4a16c{STARTED}}
+2026-01-29T13:54:24.185+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.e.servlet.ServletContextHandler    : Started osbjs.JettyEmbeddedWebAppContext@2ff11b6f{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.14659084787652144341/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@1eb4a16c{STARTED}}
+2026-01-29T13:54:24.185+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : Started oejs.Server@700b3e61{STARTING}[12.1.5,sto=0] @170ms
+2026-01-29T13:54:24.272+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-29T13:54:24.323+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-29T13:54:24.755+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-29T13:54:24.785+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-29T13:54:25.090+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@385fb6d4
+2026-01-29T13:54:25.091+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-29T13:54:25.145+05:30  WARN 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-29T13:54:25.164+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mladec3]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mladec3/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-29T13:54:25.927+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-29T13:54:25.980+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T13:54:26.060+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-29T13:54:26.304+05:30  WARN 17036 --- [SpringBootRestAPI_JPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-29T13:54:26.834+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-01-29T13:54:26.893+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29T13:54:26.894+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-29T13:54:26.895+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-29T13:54:26.922+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@2cf817a0{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T13:54:26.930+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.boot.jetty.JettyWebServer            : Jetty started on port 7777 (http/1.1) with context path '/'
+2026-01-29T13:54:26.938+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Started SpringBootRestApiJpaApplication in 5.009 seconds (process running for 5.974)
+2026-01-29T13:54:26.948+05:30  WARN 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-01-29T13:54:26.948+05:30  WARN 17036 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-01-29T14:34:24.210+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-29T14:34:24.217+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] o.s.boot.jetty.GracefulShutdown          : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-29T14:34:24.218+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [jetty-shutdown] o.s.boot.jetty.GracefulShutdown          : Graceful shutdown complete
+2026-01-29T14:34:24.222+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@2cf817a0{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T14:34:24.228+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T14:34:24.233+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-29T14:34:24.236+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-29T14:34:24.238+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] org.eclipse.jetty.server.Server          : Stopped oejs.Server@700b3e61{STOPPING}[12.1.5,sto=0]
+2026-01-29T14:34:24.242+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-29T14:34:24.246+05:30  INFO 17036 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(48)-127.0.0.1] o.e.j.e.servlet.ServletContextHandler    : Stopped osbjs.JettyEmbeddedWebAppContext@2ff11b6f{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.14659084787652144341/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@1eb4a16c{STOPPED}}
+2026-01-29T14:49:38.066+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Starting SpringBootRestApiJpaApplication using Java 21.0.1 with PID 15328 (C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA\target\classes started by keerthanaa.r1 in C:\Users\keerthanaa.r1\Desktop\mlaspring\SpringBootRestAPI_JPA)
+2026-01-29T14:49:38.069+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-01-29T14:49:38.112+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-01-29T14:49:38.112+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-01-29T14:49:39.072+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-29T14:49:39.122+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-01-29T14:49:39.804+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.j.s.JettyServletWebServerFactory   : Server initialized with port: 7777
+2026-01-29T14:49:39.808+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : jetty-12.1.5; built: 2025-12-03T22:18:24.732Z; git: 4905d09d7b6801e792d7b73946cf7b66e4be25d6; jvm 21.0.1+12-LTS
+2026-01-29T14:49:39.839+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1727 ms
+2026-01-29T14:49:39.970+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.session.DefaultSessionIdManager    : Session workerName=node0
+2026-01-29T14:49:39.980+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.handler.ContextHandler  : Started osbjs.JettyEmbeddedWebAppContext@87ab4e3{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.8169289924346976339/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@452589bd{STARTED}}
+2026-01-29T14:49:39.981+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.e.servlet.ServletContextHandler    : Started osbjs.JettyEmbeddedWebAppContext@87ab4e3{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.8169289924346976339/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@452589bd{STARTED}}
+2026-01-29T14:49:39.981+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.eclipse.jetty.server.Server          : Started oejs.Server@5dffbb3c{STARTING}[12.1.5,sto=0] @174ms
+2026-01-29T14:49:40.072+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-01-29T14:49:40.124+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-01-29T14:49:40.563+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-29T14:49:40.595+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-29T14:49:40.899+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58231a4d
+2026-01-29T14:49:40.901+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-29T14:49:40.954+05:30  WARN 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-29T14:49:40.973+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/mladec3]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.42
+	Default catalog/schema: mladec3/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-01-29T14:49:41.740+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-29T14:49:41.796+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T14:49:41.877+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-29T14:49:42.132+05:30  WARN 15328 --- [SpringBootRestAPI_JPA] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-29T14:49:42.652+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-01-29T14:49:42.714+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-29T14:49:42.714+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-29T14:49:42.716+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-29T14:49:42.745+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.e.jetty.server.AbstractConnector       : Started oejs.ServerConnector@3227ef7b{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T14:49:42.747+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.boot.jetty.JettyWebServer            : Jetty started on port 7777 (http/1.1) with context path '/'
+2026-01-29T14:49:42.754+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [restartedMain] c.test.SpringBootRestApiJpaApplication   : Started SpringBootRestApiJpaApplication in 5.066 seconds (process running for 6.019)
+2026-01-29T14:49:42.773+05:30  WARN 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-01-29T14:49:42.773+05:30  WARN 15328 --- [SpringBootRestAPI_JPA] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-01-29T15:03:13.711+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:03:18.842+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-44] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:03:20.826+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:03:21.818+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:03:49.826+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:08:00.775+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-40] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:08:41.935+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-41] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:09:09.847+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-44] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:09:47.858+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:09:48.848+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:10:10.832+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:10:22.219+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:13:36.971+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:13:51.993+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:17:01.699+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:17:09.009+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:17:12.561+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:19:30.678+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:19:38.267+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:19:53.942+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select next_val as id_val from student_seq for update
+2026-01-29T15:19:53.988+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : update student_seq set next_val= ? where next_val=?
+2026-01-29T15:19:54.308+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : insert into student (college,department,name,id) values (?,?,?,?)
+2026-01-29T15:19:54.393+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] com.test.controller.StudentController    : 102
+2026-01-29T15:19:54.394+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] com.test.controller.StudentController    : keer
+2026-01-29T15:19:54.394+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] com.test.controller.StudentController    : ece
+2026-01-29T15:19:54.394+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] com.test.controller.StudentController    : abc
+2026-01-29T15:19:54.424+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:20:40.380+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:20:43.699+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:21:25.392+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:21:29.432+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:21:32.115+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:21:33.840+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:21:36.089+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:21:36.096+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : delete from student where id=?
+2026-01-29T15:21:36.203+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:21:36.508+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:21:36.512+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:22:52.471+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:22:59.484+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:23:13.110+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:23:43.183+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:24:00.349+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-45] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:30:16.048+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-46] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T15:38:29.179+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-47] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0 where s1_0.id=?
+2026-01-29T15:45:50.025+05:30 DEBUG 15328 --- [SpringBootRestAPI_JPA] [qtp134145027-42] org.hibernate.SQL                        : select s1_0.id,s1_0.college,s1_0.department,s1_0.name from student s1_0
+2026-01-29T17:58:33.449+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-01-29T17:58:33.468+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] o.s.boot.jetty.GracefulShutdown          : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-29T17:58:33.470+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [jetty-shutdown] o.s.boot.jetty.GracefulShutdown          : Graceful shutdown complete
+2026-01-29T17:58:33.481+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped oejs.ServerConnector@3227ef7b{HTTP/1.1, (http/1.1)}{0.0.0.0:7777}
+2026-01-29T17:58:33.490+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-29T17:58:33.502+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-29T17:58:33.508+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-29T17:58:33.510+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] org.eclipse.jetty.server.Server          : Stopped oejs.Server@5dffbb3c{STOPPING}[12.1.5,sto=0]
+2026-01-29T17:58:33.517+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2026-01-29T17:58:33.521+05:30  INFO 15328 --- [SpringBootRestAPI_JPA] [RMI TCP Connection(201)-127.0.0.1] o.e.j.e.servlet.ServletContextHandler    : Stopped osbjs.JettyEmbeddedWebAppContext@87ab4e3{application,/,b=[file:/C:/Users/keerthanaa.r1/AppData/Local/Temp/jetty-docbase.7777.8169289924346976339/, jar:file:///C:/Users/keerthanaa.r1/.m2/repository/org/webjars/swagger-ui/5.30.1/swagger-ui-5.30.1.jar!/META-INF/resources/],a=AVAILABLE,h=oeje11s.SessionHandler@452589bd{STOPPED}}
