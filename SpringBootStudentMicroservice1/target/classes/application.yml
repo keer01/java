@@ -1,0 +1,17 @@
+#spring.application.name=SpringBootStudentMicroservice1
+
+spring:
+  application:
+    name: SpringBootStudentMicroservice1
+  web:
+    error:
+      whitelabel:
+        enabled: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+              
+server:
+  port: 2222    		
