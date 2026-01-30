@@ -1,0 +1,14 @@
+#spring.application.name=SpringBootDiscoveryMicroservice1
+
+spring:
+  application:
+    name: SpringBootDiscoveryMicroservice1
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+server:
+  port: 1111	
